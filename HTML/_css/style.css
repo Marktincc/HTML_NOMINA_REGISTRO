@@ -1,0 +1,147 @@
+    body{
+        margin: 0;
+    }
+    header{
+        display : flex;
+        background-color : #14161A;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .logo{
+        display : flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+    }
+    .logo img{
+        height : 70px;
+    }
+
+    .nav-link-chorizo img{
+        height : 18px;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .logo h2:hover{
+        color : yellow;
+    }
+
+    .menu li{
+        display : inline-block;
+        padding: 10px;
+    }
+
+    .aestilo:hover{
+        margin: 0;
+        color : yellow;
+        background-color: #3333;
+        padding: 27px;
+
+    }
+
+    .menu a{
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+    .tabla1 h1{
+        font-size: 25px;
+        padding: 5px;
+        text-align: center;
+
+    }
+
+    .tabla1 table,tr,th,td{
+        border: 1px solid #14161A;
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 150px;
+        padding: 5px;
+
+    }
+
+    .ColorAmarillo{
+        color:white;
+        background-color: yellow;
+
+    }
+
+    .lista1 h2{
+        font-size: 25px;
+        padding: 5px;
+        text-align: center;
+
+    }
+
+    .lista1 ol, .lista1 li{
+        width: 150px;
+        margin: 0 auto;
+    }
+    table,li,ul{
+        cursor: default;
+    }
+    h1,h2{
+        cursor: default;
+
+    }
+    .nomina{
+        margin: 25px auto;
+        border:2px none;
+        width: 300px;
+        height: 300px;
+        padding: 0px 0px 10px 0px;
+        text-align: center;
+
+    }
+    .nomina input{
+        margin: 10px;
+        width: 80%;
+    }
+    .nomina h1{
+        background-color: #3333;
+
+    }
+    .nomina select{
+        margin: 10px;
+        width: 80%;
+    }
+    .nomina input:focus{
+        border: 2px solid yellow;
+    }
+    .enviar:hover{
+        background-color: #14161A;
+        color: white;
+        padding: 0 50px;
+
+    }
+    .enviar{
+        padding: 0 50px;
+    }
+    .registro{
+        margin: 25px auto;
+        border:2px none;
+        width: 300px;
+        height: 300px;
+        padding: 0px 0px 10px 0px;
+        text-align: center;
+
+    }
+    .registro input{
+        margin: 10px;
+        width: 80%;
+    }
+    .registro h1{
+        background-color: #3333;
+
+    }
+
+    .registro input:focus{
+        border: 2px solid yellow;
+    }
+    .pruebas{
+        text-align: center;
+    }

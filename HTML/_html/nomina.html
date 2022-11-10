@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/_css/style.css">
+        <link rel="shortcut icon" href="/_imagenes/pngegg(3).png"
+            type="image/x-icon">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logo">
+                <img src="/_imagenes/pngegg(3).png" alt="Logo borrado">
+                <h2>Los Pikachu</h2>
+            </a>
+            <ul class="menu">
+                <!-- <li class="logo">
+                    <a href="https://www.facebook.com/">
+                        <img src="/_imagenes/pngegg(3).png" alt="Logo borrado">
+                        <h2>Los Pikachu</h2>
+                    </a>
+                </li> -->
+                <li class="derecha">
+                    <a href="#tabla1" class="nav-link-chorizo aestilo">
+                        <img src="/_imagenes/pngegg(5).png" alt="Imagen No Cargada"> Tabla De Pokemones</a>
+                </li>
+                <li class="derecha"><a href="registro.html" class="aestilo">Registrate</a></li>
+                <li class="derecha"><a href="index.html" class="aestilo">Inicio</a></li>
+</ul>
+        </header>
+        <div class="nomina">
+            <h1>Nomina</h1>
+            <form action="">
+                <label for="firstname">Nombres:</label><br>
+                <input type="text" name="firstname" id="firstname" autofocus required pattern="[A-Za-z ]{2,40}" placeholder="Ingrese sus nombres"><br>
+
+                <label for="lastname">Apellido:</label><br>
+                <input type="text" name="lastname" id="lastname" required pattern="[A-Za-z ]{2,40}" placeholder="Ingrese sus Apellidos"><br>
+                <label for="TipoDeDocumento">Tipo de documento de identidad</label>
+                <select name="TipoDeDocumento" id="TipoDeDocumento" required>
+                    <option value="" disabled selected hidden>Seleccione su tipo de documento</option>
+                    <option value="Cedula">Cedula</option>
+                    <option value="TarjetaIdentidad">Tarjeta de identidad</option>
+                    <option value="Pasaporte">Pasaporte</option>
+                </select><br>
+
+                <label for="NumeroPasaporte">Numero de identidad</label>
+                <input type="number" name="NumeroPasaporte" id="NumeroPasaporte" required placeholder="Ingrese su numero de identidad" min="10000000"><br>
+
+                <label for="NumeroDiasTrabajados">Dias trabajados</label>
+                <input type="number" name="NumeroDiasTrabajados" id="NumeroDiasTrabajados" min="1" required placeholder="Ingrese su numero de dias trabajados"><br>
+                <label for="Salario">Salario</label>
+                <input type="number" name="Salario" id="Salario" min="50000" required placeholder="Ingrese su numero de dias trabajados"><br>
+                <label for="mayoredad">Es mayor de edad</label>
+                <input type="checkbox" name="mayoredad" id="mayoredad">
+
+
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+</html>
